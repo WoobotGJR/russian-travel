@@ -4,9 +4,9 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 28px;;
-      justify-content: space-between;
-      transition: opacity 0.75s;
+    line-height: 28px;
+    justify-content: space-between;
+    transition: opacity 0.75s;
   }
   
   .header__lang-link:hover {
