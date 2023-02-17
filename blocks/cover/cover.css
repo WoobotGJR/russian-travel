@@ -3,7 +3,7 @@
 	/* width: 500px;
 	height: 100px; */
 	margin: 0 auto;
-	position: relative;	
+	position: relative;
 	text-align: center;
 	background-image: url(../../images/cover-trains.jpg); /*чтобы фоновое изображение появилось, необходимо, чтобы один из наследников имел ненулевую высоту или внутренний отступ*/
 	background-size: cover;
