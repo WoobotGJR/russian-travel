@@ -5,7 +5,7 @@
 	margin: 0 auto;
 	position: relative;	
 	text-align: center;
-	background-image: url("../images/cover-trains.jpg"); /*чтобы фоновое изображение появилось, необходимо, чтобы один из наследников имел ненулевую высоту или внутренний отступ*/
+	background-image: url(../../images/cover-trains.jpg); /*чтобы фоновое изображение появилось, необходимо, чтобы один из наследников имел ненулевую высоту или внутренний отступ*/
 	background-size: cover;
 	background-position: center; /*фон съезжает*/
 	background-repeat: no-repeat;
