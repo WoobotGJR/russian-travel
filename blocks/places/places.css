@@ -1,0 +1,23 @@
+.places {
+	max-width: calc(100% - 296px);
+	margin: 0 auto;
+	font-family: "Inter", "Arial", "Helvetica", sans-serif;
+}
+
+@media screen and (max-width: 1150px) {
+	.places {
+		max-width: calc(100% - 96px);
+	}
+}
+
+@media screen and (max-width: 932px) {
+	.places {
+		max-width: calc(100% - 48px);
+	}
+}
+
+@media screen and (max-width: 610px) {
+	.places {
+		max-width: 100%;
+	}
+}

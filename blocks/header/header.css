@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    max-width: calc(100% - 96px);
+    /* width: 92.5%; */
+      margin: 0 auto 56px auto;
+    justify-content: space-between;
+    font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  }
+  
+  @media screen and (max-width: 1124px) {
+    .header {
+      margin-bottom: 48px;
+    }
+  }
+  
+  @media screen and (max-width: 932px) {
+    .header {
+      max-width: calc(100% - 48px);
+    }
+  }
+  
+  @media screen and (max-width: 610px) {
+    .header {
+      max-width: calc(100% - 32px);
+    }
+  }

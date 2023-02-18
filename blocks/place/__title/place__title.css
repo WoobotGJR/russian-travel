@@ -1,0 +1,31 @@
+.place__title {
+	color: #FFFFFF;
+	grid-column-start: 1;
+	grid-row-start: 1;
+	margin: 0;
+	align-self: flex-end;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 72px;
+	line-height: 1.06;
+}
+
+@media screen and (max-width: 932px) {
+	.place__title {
+		font-size: 42px;
+	}
+}
+
+@media screen and (max-width: 610px) {
+	.place__title {
+		font-size: 32px;
+		line-height: 1.09;
+		width: calc(100% - 32px);
+		margin: 0 auto 32px auto;
+		order: 1;
+	}
+}
+
+.place__title:last-child {
+	margin-bottom: 92px;
+}

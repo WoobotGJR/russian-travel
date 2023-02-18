@@ -1,0 +1,38 @@
+.cover {
+	max-width:calc(100% - 48px * 2);
+	/* width: 500px;
+	height: 100px; */
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	background-image: url(../../images/cover-trains.jpg); /*чтобы фоновое изображение появилось, необходимо, чтобы один из наследников имел ненулевую высоту или внутренний отступ*/
+	background-size: cover;
+	background-position: center; /*фон съезжает*/
+	background-repeat: no-repeat;
+	margin-top: 92px;
+	margin-bottom: 92px;
+	font-family: "Inter", "Arial", "Helvetica", sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+	.cover {
+		max-width: 100%;
+		min-height: 640px;
+		margin-bottom: 88px;
+		margin-top: 90px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.cover {
+		min-height: 480px;
+	}
+}
+
+@media screen and (max-width: 610px) {
+	.cover {
+		min-height: 200px;
+		margin-top: 66px;
+		margin-bottom: 64px;
+	}
+}

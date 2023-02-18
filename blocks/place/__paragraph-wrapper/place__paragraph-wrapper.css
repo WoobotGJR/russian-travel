@@ -1,0 +1,23 @@
+.place__paragraph-wrapper { /*Положение текста абзацев*/
+	grid-column-start: 2;
+	grid-row-start: 2;
+	display: flex;
+	flex-direction: column;
+	row-gap: 26px;
+}
+
+@media screen and (max-width: 932px) {
+	.place__paragraph-wrapper {
+		row-gap: 25px;
+	}
+}
+
+@media screen and (max-width: 610px) {
+	.place__paragraph-wrapper {
+		order: 4;
+		margin-top: 32px;
+		margin-left: auto;
+		margin-right: auto;
+		width: calc(100% - 32px);
+	}
+}

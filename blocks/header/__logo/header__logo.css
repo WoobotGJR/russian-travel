@@ -1,0 +1,11 @@
+.header__logo {
+	margin-top: 28px; /*верхний отступ от хэдера не работает*/
+}
+
+@media screen and (max-width: 610px) {
+	.header__logo {
+		width: 142px;
+		height: 42px;
+		margin-top: 16px;
+	}
+}

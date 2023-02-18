@@ -1,0 +1,17 @@
+.place__website {
+	grid-column-start: 2;
+	grid-row-start: 1;
+	align-self: flex-end;
+	display: flex;
+	flex-direction: column;
+	row-gap: 12px;
+}
+
+@media screen and (max-width: 610px) {
+	.place__website {
+		order: 2;
+		align-self: flex-start;
+		width: calc(100% - 32px);
+		margin: 0 auto 32px auto;
+	}
+}

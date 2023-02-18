@@ -1,0 +1,20 @@
+.lead {
+	width: calc(100% - 296px);
+	margin: 0 auto;
+	font-family: "Inter", "Arial", "Helvetica", sans-serif;
+	/* display: flex;
+	flex-direction: column;
+	align-content: center; */
+}
+
+@media screen and (max-width: 1124px) { /*значение чуть выше, чтобы изображение выглядело лучше при сжатии от 1280 до 1024*/
+	.lead {
+		width: calc(100% - 96px);
+	}
+}
+
+@media screen and (max-width: 840px) {  /*Заголовок и подзаголовок ниже этого значения перестают умещаться в страницу*/
+	.lead {
+		width: 100%;
+	}
+}
