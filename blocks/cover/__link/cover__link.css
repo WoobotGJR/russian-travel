@@ -22,7 +22,7 @@
 }
 
 .cover__link:hover::before { /*обратить внимание на то, что :hover находится первее ::before*/
-	opacity: 0.7
+	opacity: 0.7;
 }
 
 @media screen and (max-width: 1024px) {
