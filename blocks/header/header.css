@@ -2,7 +2,7 @@
     display: flex;
     max-width: calc(100% - 96px);
     /* width: 92.5%; */
-      margin: 0 auto 56px auto;
+    margin: 0 auto 56px auto;
     justify-content: space-between;
     font-family: "Inter", "Arial", "Helvetica", sans-serif;
   }

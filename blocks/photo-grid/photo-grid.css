@@ -24,8 +24,6 @@
 	.photo-grid {
 		grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
 		/* grid-template-rows: repeat(auto-fit, minmax(264px, 1fr)); */
-		max-width: calc(100% - 48px);
-		margin-bottom: 88px;
 	}
 }
 
