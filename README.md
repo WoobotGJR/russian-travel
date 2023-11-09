@@ -17,6 +17,7 @@
 
 Ссылка на Github-pages: https://woobotgjr.github.io/russian-travel/
 
+<i>Проект был проверен опытными ревьюерами согласно чеклисту</i>
 
 <a name="functionality"><h2>2. Функциональность проекта</h2></a>
 
